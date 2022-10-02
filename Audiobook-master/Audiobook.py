@@ -9,4 +9,4 @@ speaker.say(welcome)
 page = pdfReader.getPage(0)
 text = page.extractText()
 speaker.say(text)
-speaker.runAndWait()
+
