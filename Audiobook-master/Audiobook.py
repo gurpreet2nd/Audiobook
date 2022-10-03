@@ -7,4 +7,3 @@ welcome = "Hello, I am your reader. I was made by Gurpreet Singh kochar. Today i
 speaker = pyttsx3.init()
 speaker.say(welcome)
 page = pdfReader.getPage(0)
-speaker.runAndWait()
